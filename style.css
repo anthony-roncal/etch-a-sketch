@@ -5,6 +5,10 @@ body {
     margin-top: 50px;
 }
 
+#options {
+    display:flex;
+}
+
 #grid {
     margin-top: 50px;
     max-width: 600px;
@@ -16,8 +20,4 @@ body {
 #btn-reset {
     width: 300px;
     padding: 20px 40px;
-}
-
-.hovered {
-    background-color: black;
 }
