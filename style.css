@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#grid {
+    margin-top: 50px;
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#btn-reset {
+    width: 300px;
+    padding: 20px 40px;
+}
+
+.hovered {
+    background-color: black;
+}
