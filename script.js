@@ -3,12 +3,11 @@ const divGrid = document.querySelector('#grid');
 const btnReset = document.querySelector('#btn-reset');
 btnReset.addEventListener('click', createCustomGrid);
 
-function createGrid (size){
+function createGrid(size){
     for (let i = 0; i < Math.pow(size, 2); i++) {
         let square = document.createElement('div');
-        let width = Math.floor(600/(size))-2;
-        let height = width;
-        square.setAttribute('style', `width: ${width}px; height: ${height}px; border: solid 1px black;`);
+        let side = 600/size;
+        square.setAttribute('style', `width: ${side}px; height: ${side}px; border: solid 1px black; box-sizing: border-box;`);
         square.classList.add("square");
         divGrid.appendChild(square);
     }
