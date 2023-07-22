@@ -1,3 +1,3 @@
-# odin-etch-a-sketch
+# etch-a-sketch
 
-This is a practice project for The Odin Project: Etch-A-Sketch.
+View app at: https://anthony-roncal.github.io/etch-a-sketch/
